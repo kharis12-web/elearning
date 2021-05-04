@@ -58,6 +58,7 @@
                             <div class="dropdown-menu">
                                 <a class="dropdown-item" data-toggle="modal" data-target="#exampleModalCenter" href="#">Login Mahasiswa</a>
                                 <a class="dropdown-item" href="<?= base_url('welcome/guru') ?>">Login Dosen</a>
+                                <a class="dropdown-item" href="<?= base_url('welcome/admin') ?>">Login Admin</a>
                             </div>
                         </li>
                         <li class="dropdown">

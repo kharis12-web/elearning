@@ -20,7 +20,7 @@
                                                                                                     ?></div>
                         </a>
                         <div class="dropdown-menu dropdown-menu-right">
-                            <div class="dropdown-title">Admin - Learnify</div>
+                            <div class="dropdown-title">Admin - E-lok</div>
                             <a href="<?= base_url('welcome/logout') ?>" class="dropdown-item has-icon text-danger">
                                 <i class="fas fa-sign-out-alt"></i> Logout
                             </a>
@@ -33,7 +33,7 @@
                     <div class="sidebar-brand text-danger">
                         <div>
                             <a href="<?= base_url('admin') ?>" style="font-size: 25px;font-weight:900;font-family: 'Poppins', sans-serif;" class="text-success text-center"><img style="width: 240px;" src="<?php echo base_url('assets/img/unu2.png'); ?>" />
-                                E-Lena <sup>Beta</sup> </a>
+                                E-Lok <sup>V.01</sup> </a>
                         </div>
                     </div>
                     <div class="sidebar-brand sidebar-brand-sm">
@@ -44,7 +44,7 @@
                         <li class="nav-item dropdown">
                             <a href="<?= base_url('admin') ?>" class="nav-link"><i class="fas fa-desktop"></i><span>Dashboard</span></a>
                         </li>
-                        <li class="menu-header">Management Siswa</li>
+                        <li class="menu-header">Management Pengguna</li>
 
                         <li class="nav-item dropdown">
                             <a href="#" class="nav-link has-dropdown" data-toggle="dropdown"><i class="fas fa-user"></i>
@@ -55,8 +55,6 @@
                                 </li>
                             </ul>
                         </li>
-                        <li class="menu-header">Management Guru</li>
-
                         <li class="nav-item dropdown">
                             <a href="#" class="nav-link has-dropdown"><i class="fas fa-chalkboard-teacher"></i>
                                 <span>Guru</span></a>
@@ -67,7 +65,6 @@
                                 </li>
                             </ul>
                         </li>
-                        <li class="menu-header">Management Rektor</li>
                         <li class="nav-item dropdown">
                             <a href="#" class="nav-link has-dropdown"><i class="fas fa-chalkboard-teacher"></i>
                                 <span>Rektor</span></a>
@@ -78,7 +75,6 @@
                                 </li>
                             </ul>
                         </li>
-                        <li class="menu-header">Management orangtua</li>
                         <li class="nav-item dropdown">
                             <a href="#" class="nav-link has-dropdown"><i class="fas fa-chalkboard-teacher"></i>
                                 <span>orangtua</span></a>
@@ -110,7 +106,7 @@
                                         Pembuat</a>
                                 </li>
                                 <li><a class="nav-link" href="<?= base_url('admin/about_learnify') ?>">Tentang
-                                        Learnify</a>
+                                        E-Lok</a>
                                 </li>
                             </ul>
                         </li>
